@@ -29,15 +29,21 @@
 </head>
 <body class="bg-light">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container">
             <a href="#" class="navbar-brand text-primary fw-5 fs-1 text-uppercase">
-                <img src="Assets/newdsgn-removebg.png" alt="logo" height="60" width="60">City Rides 
+                <img 
+                    
+                    src="Assets/newdsgn-removebg.png" 
+                    alt="logo" 
+                    height="60" 
+                    width="60">
+                    City Rides 
             </a>
 
             <!-- hamburger menu -->
             <button 
-                class="navbar-toggler" 
+                class="navbar-toggler bg-warning" 
                 type="button" 
                 data-bs-toggle="collapse" 
                 data-bs-target="#navitems"
@@ -47,19 +53,19 @@
                 <span class="navbar-toggler-icon"></span> -->
             </button>
             <!-- navbar items -->
-            <div class="collapse navbar-collapse text-uppercase" id="navitems">
-                <ul class="navbar-nav ms-auto">
+            <div class=" collapse navbar-collapse text-uppercase" id="navitems">
+                <ul class="navbar-nav ms-auto ">
                     <li>
-                        <a href="#Home" class="nav-item">Home</a>
+                        <a href="#Home" class="nav-link">Home</a>
                     </li>
                     <li>
-                        <a href="#Features" class="nav-item">Features</a>
+                        <a href="#Features" class="nav-link">Features</a>
                     </li>
                     <li>
-                        <a href="#Testimonials" class="nav-item">Testimonials</a>
+                        <a href="#Testimonials" class="nav-link">Testimonials</a>
                     </li>
                     <li>
-                        <a href="#Login" class="nav-item">Login</a>
+                        <a href="#Login" class="nav-link">Login</a>
                     </li>
                 </ul>
             </div>
@@ -69,18 +75,28 @@
     <!-- Display section -->
     <section class="bg-light text-dark p-5">
         <div class="container">
-            <img src="Assets/city_driver_re_0x5e.svg" alt="Our drivers"><br>
+            <img src="Assets/city_driver_re_0x5e.svg" class="img-fluid" alt="Our drivers"><br>
             <div class="d-flex justify-content-between">
-                <a href="#" class="btn btn-primary text-light p-3 ">Log in <i class= "bi bi-arrow-right fw-4"></i></a>
+                <a href="#" class="btn btn-primary text-light  p-3 ">Log in <i class= "bi bi-arrow-right fw-4"></i></a>
                 <a href="#" class="btn btn-primary text-light p-3">Sign Up <i class= "bi bi-arrow-right fw-4"></i></a>
             </div>
         </div>
     </section>
-        <div class="container m-5">
-            <h2  class="text-center text-primary">Anywhere, Everywhere!</h2>
-            <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt sed tenetur magnam consectetur at quia voluptatum beatae id! Beatae quo dignissimos sequi odio animi.</p>
-            <img src="Assets/map.svg" alt="maps">
+    <!-- Routes section -->
+    <section>
+        <h2  class="text-center text-primary">Anywhere, Everywhere!</h2>
+        <!-- Applying grid -->
+        <div class="container mt-5 my-5">
+            <div class="row">
+                <div class="col">
+                    <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt sed tenetur magnam consectetur at quia voluptatum beatae id! Beatae quo dignissimos sequi odio animi.</p>
+                </div>
+                <div class="col">
+                    <img src="Assets/map.svg" class="img-fluid max-width:100%" alt="maps">
+                </div>
+            </div>
         </div>
+    </section>
     
 
     <script 
