@@ -25,21 +25,30 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
         >
     <link rel="stylesheet" href="css/style.css">
-    <title>landing page</title>
+    <title>City Rides</title>
 </head>
-<body>
+<body class="bg-light">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg d-flex fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
         <div class="container">
-            <name class="text-primary fw-5">
-                <img src="Assets/cityridesdesign-removebg.png" alt="logo" height="50" width="50"> 
-            </name>
+            <a href="#" class="navbar-brand text-primary fw-5 fs-1 text-uppercase">
+                <img src="Assets/newdsgn-removebg.png" alt="logo" height="60" width="60">City Rides 
+            </a>
 
-            
-
+            <!-- hamburger menu -->
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navitems"
+                >
+                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span> -->
+            </button>
             <!-- navbar items -->
-            <div class="collapse navbar-collapse ms-auto">
-                <ul class="navbar-nav ms-auto flex-m-column ">
+            <div class="collapse navbar-collapse text-uppercase" id="navitems">
+                <ul class="navbar-nav ms-auto">
                     <li>
                         <a href="#Home" class="nav-item">Home</a>
                     </li>
