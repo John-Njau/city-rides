@@ -32,11 +32,11 @@ There were no bugs identified by the time of deployment.
 
 ## Support and Contact details
 
-If you encounter any issues running this application, you are encouraged to contact John Njau via email @johnnjaunjoroge@gmail.com
+If you encounter any issues running this application, you are encouraged to contact the developer John Njau via email @johnnjaunjoroge@gmail.com
 
 ## License
 
-This project is under the [MIT] License.
+This project is under the MIT License.
 
 ## Authors Info
 
