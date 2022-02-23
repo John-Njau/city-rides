@@ -6,7 +6,7 @@
 | ---------- | --------- |
 | John       | Njau      |
 
-## Table of Content
+## Table of Contents
 
 - [Description](#description)
 - [Technologies Used](#technology-used)
